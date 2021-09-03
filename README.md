@@ -16,7 +16,7 @@ apt install p7zip
 
 ## Usage
  
-It will change old file name to old.back.
+It will changes old file name to old.back.
 ```
 python convert_qm_to_html.py <FolderPath>
 ```
