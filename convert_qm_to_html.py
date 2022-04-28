@@ -11,10 +11,7 @@ import datetime
 # Simple lqm extension check
 def is_lqm(input_file_name):
     (root,extension) = os.path.splitext(input_file_name) 
-    if extension != '.lqm':
-        return False
-    else:
-        return True
+    return extension == '.lqm'
         #raise RuntimeError('this is not correct lqm file')
 
 # back up, rename 
